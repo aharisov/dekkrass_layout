@@ -1,0 +1,29 @@
+/*--------------------------------------------------------------
+# Variables (Colors, Fonts, sizes)
+--------------------------------------------------------------*/
+@import "fonts";
+@import "variables";
+@import "mixins";
+
+/*--------------------------------------------------------------
+# Normalize & Print
+--------------------------------------------------------------*/
+@import "normalize";
+@import "print";
+
+/*--------------------------------------------------------------
+# Components
+--------------------------------------------------------------*/
+/**Optionally add Bootstrap to your project**/
+/* @import "~bootstrap/scss/bootstrap"; */
+@import "app";
+@import "pages/home";
+@import "pages/catalog";
+@import "pages/product";
+@import "pages/brands";
+@import "pages/others";
+
+/*--------------------------------------------------------------
+# Responsive Bug Fixes
+--------------------------------------------------------------*/
+@import "media";
