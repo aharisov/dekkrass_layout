@@ -95,4 +95,17 @@
             z-index: 999;
         }
     }
+
+    /* about start */
+    .about_page .numbers_block {
+        margin-bottom: 3em;
+        flex-direction: column;
+
+        .left, .right {
+            width: 100%;
+        }
+        .right {
+            margin-top: 1em;
+        }
+    }
 }

@@ -319,7 +319,7 @@ function showReviews() {
 function aboutSlider() {
     const slide = document.querySelector('.about_slider .splide');
 
-    if (slide) {
+    if (slide && window.outerWidth > 640) {
         new Splide( slide , {
             type   : 'loop',
             padding: '18%',
@@ -327,6 +327,14 @@ function aboutSlider() {
             fixedWidth: '606px',
             height: '300px',
             start: 1,
+            pagination: false,
+            arrows: false
+        } ).mount();
+    }
+    if (slide && window.outerWidth < 641) {
+        new Splide( slide , {
+            perPage: 1,
+            gap: '24px',
             pagination: false,
             arrows: false
         } ).mount();

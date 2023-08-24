@@ -124,4 +124,24 @@
     .product_specs {
         max-width: 100%;
     }
+
+    /* about start */
+    .about_page .numbers_block .left .num_item {
+        flex-direction: column;
+        align-items: start;
+
+        span, p {
+            width: 100%;
+        }
+    }
+    .about_descr {
+        margin-bottom: 0;
+    }
+    .about_page .numbers_block {
+        height: 100%;
+
+        .right {
+            height: auto;
+        }
+    }
 }
