@@ -324,6 +324,16 @@ function aboutSlider() {
     }
 }
 
+/** open-close mobile menu */
+const showMobileMenu = () => {
+    const btn = document.querySelector('.burger');
+    const menu = document.querySelector('.top_menu_mobile');
+
+    btn.addEventListener('click', () => {
+        menu.classList.toggle('active');
+    })
+}
+
 homeSlidesInit();
 productPicSlider();
 tabs();
@@ -337,3 +347,4 @@ maskPhone();
 playVideo();
 showReviews();
 aboutSlider();
+showMobileMenu();

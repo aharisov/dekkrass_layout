@@ -190,6 +190,14 @@ header {
       }
     }
   }
+
+  &.active ul {
+    flex-direction: column;
+
+    li {
+      line-height: 2em;
+    }
+  }
 }
 
 .header_bottom {
@@ -207,37 +215,37 @@ header {
       @include imgFit;
     }
   }
+}
 
-  .site_search {
-    position: relative;
-    @include objSizes(445px, 44px);
-    margin-left: 158px;
+.site_search {
+  position: relative;
+  @include objSizes(445px, 44px);
+  margin-left: 158px;
 
-    form {
-      width: 100%;
-      height: 100%;
-    }
-    input[type="text"] {
-      width: 100%;
-      height: 100%;
-      padding-left: 22px;
-      padding-right: 37px;
-      background-color: $greyColor;
-      border: none;
-      border-radius: 5px;
-      font-size: 14px;
-    }
-    button {
-      position: absolute;
-      top: 11px;
-      right: 9px;
-      width: 21px;
-      height: 21px;
-      background-image: url('../images/ic_search.svg');
-      @include bgImg;
-      background-color: transparent;
-      border: none;
-    }
+  form {
+    width: 100%;
+    height: 100%;
+  }
+  input[type="text"] {
+    width: 100%;
+    height: 100%;
+    padding-left: 22px;
+    padding-right: 37px;
+    background-color: $greyColor;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  button {
+    position: absolute;
+    top: 11px;
+    right: 9px;
+    width: 21px;
+    height: 21px;
+    background-image: url('../images/ic_search.svg');
+    @include bgImg;
+    background-color: transparent;
+    border: none;
   }
 }
 
@@ -397,6 +405,72 @@ header {
   }
   a:hover {
     color: $greenColor;
+  }
+}
+
+.top_menu_mobile {
+  display: none;
+  position: absolute;
+  top: 62px;
+  left: 0;
+  z-index: 99;
+  width: 100%;
+  margin: 0;
+  padding: 2em;
+  background: $darkGreyColor;
+  border-top: 1px solid $whiteColor;     
+  flex-direction: column;       
+
+  li {
+    font-size: 16px;
+  }
+  &.active {
+      display: flex;
+  }
+
+  .logo {
+    width: 100px;
+    margin: 0;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  ul {
+    column-count: 3;
+
+    li a {
+      line-height: 2em;
+      color: $whiteColor;
+    }
+  }
+
+  .line {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 2em;
+  }
+
+  .site_search {
+    max-width: none;
+    margin-left: 0;
+    margin-bottom: 2em;
+  }
+  .product_header_actions {
+    margin-left: auto;
+    margin-right: 0;
+  }
+  .compare svg, .wishlist svg {
+    fill: $whiteColor;
+  }
+  .product_header_actions a,
+  .small_cart a {
+    color: $whiteColor;
+  }
+  .small_cart {
+    max-width: 110px;
   }
 }
 

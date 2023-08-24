@@ -1,6 +1,12 @@
 /* home house */
 .home_house {
-    
+    .house_inner_mobile {
+        display: none;
+
+        img {
+            width: 100%;
+        }
+    }
     .house_inner {
         position: relative;
         width: 100%;
