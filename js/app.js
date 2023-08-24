@@ -135,7 +135,7 @@ function tabs() {
 /** products popular slider */
 function productPopularSlider() {
     const sliders = document.querySelectorAll('.product_slider > .splide');
-    const gal = document.querySelectorAll('.product_slider .gallery');
+    //const gal = document.querySelectorAll('.product_slider .gallery');
 
     if (sliders) {
         for ( var i = 0; i < sliders.length; i++ ) {
@@ -144,6 +144,9 @@ function productPopularSlider() {
                 breakpoints: {
                     1360: {
                         perPage: 3,
+                    },
+                    1199: {
+                        perPage: 2,
                     },
                     1023: {
                         perPage: 2,
@@ -160,6 +163,7 @@ function productPopularSlider() {
         }
     }
 
+    /*
     if (gal) {
         for ( var i = 0; i < gal.length; i++ ) {
             new Splide( gal[ i ] , {
@@ -168,7 +172,7 @@ function productPopularSlider() {
                 arrows: false
             } ).mount();
         }
-    }
+    }*/
 }
 
 /** open all props in filter */
@@ -199,6 +203,11 @@ function reviewsSlider() {
     if (slide) {
         new Splide( '.reviews_slider .splide' , {
             perPage: 2,
+            breakpoints: {
+                639: {
+                    perPage: 1,
+                }
+            },
             gap: 34,
             pagination: false,
             //arrows: false,

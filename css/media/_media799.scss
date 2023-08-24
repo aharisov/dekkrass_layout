@@ -85,4 +85,43 @@
     .catalog_inner .products_list .product_card {
         max-width: 48%;
     }
+
+    /* product start */
+    .product_menu ul {
+        flex-wrap: wrap;
+
+        li {
+            margin-bottom: 0.5em;
+        }
+    }
+    .product_info {
+        flex-direction: column-reverse;
+
+        .product_pic {
+            margin-top: 3em;
+        }
+    }
+    .product_descr {
+        margin-top: 0;
+    }
+    .product_descr {
+        .usage_block {
+            flex-direction: column-reverse;
+            margin-bottom: 2em;
+    
+            .pic {
+                margin-bottom: 2em;
+            }   
+        }
+        .advants {
+            flex-direction: column;
+
+            .pic {
+                margin-bottom: 2em;
+            }
+        }
+    }
+    .product_specs {
+        max-width: 100%;
+    }
 }

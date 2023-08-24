@@ -114,4 +114,46 @@
             }
         }
     }
+
+    /* product start */
+    .product_menu_wrap {
+        flex-direction: column;
+
+        .breadcrumbs {
+            margin-bottom: 2em;
+        }
+    }
+    .product_info .product_pic {
+        .country {
+            top: 46px;
+        }
+        .brand {
+            top: 92px;
+        }
+        .badge {
+            left: 0;
+            right: auto;
+        }
+    }
+    .product_descr .advants {
+        height: auto;
+
+        .prod_show_btn,
+        .pic::after, .text::after {
+            display: none;
+        }
+        .pic {
+            max-width: 450px;
+        }
+
+        img {
+            width: 100%;
+        }
+    }
+    .product_reviews .reviews_slider .review_item .date {
+        position: relative;
+        right: auto;
+        top: auto;
+        margin-top: 1em;
+    }
 }

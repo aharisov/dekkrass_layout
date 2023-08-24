@@ -182,4 +182,33 @@
             }
         }
     }
+
+    /* product */
+    .product_short_info .prop_block .prop_list {
+        flex-wrap: wrap;
+
+        &.color li {
+            margin-bottom: 0.5em;
+        }
+    }
+    .ask_block {
+        margin-bottom: 3em;
+
+        h2 {
+            text-align: center;
+        }
+        .call_us a {
+            display: block;
+        }            
+    }
+    .product_faq .faq_item {
+        padding: 22px 0;
+    }
+    .reviews_top {
+        flex-direction: column;
+        align-items: start;
+    }
+    .product_reviews .all_reviews {
+        margin: 1em 0;
+    }
 }
