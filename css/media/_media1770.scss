@@ -1,0 +1,87 @@
+@media (max-width: 1770px) {
+    /* home start */
+    .product_header_actions {
+        margin-right: auto;
+    }
+
+    .home_house {
+        .house_inner {
+            width: 1360px;
+            margin-left: auto;
+            margin-right: auto;
+
+            .sect_list {
+                .sect_item a {
+                    width: 155px;
+                }
+                .sect_item:nth-child(1) {
+                    left: 124px;
+                    top: 12px;
+                }
+                .sect_item:nth-child(2) {
+                    left: 318px;
+                    top: 12px;
+                }
+                .sect_item:nth-child(3) {
+                    left: 496px;
+                    top: 19px;
+                }
+                .sect_item:nth-child(4) {
+                    left: 796px;
+                    top: 6px;
+                }
+                .sect_item:nth-child(5) {
+                    left: 1118px;
+                    top: 122px;
+                }
+                .sect_item:nth-child(6) {
+                    left: 1118px;
+                    top: 295px;
+                }
+                .sect_item:nth-child(7) {
+                    left: 1118px;
+                    top: 449px;
+                }
+                .sect_item:nth-child(8) {
+                    left: 980px;
+                    top: 634px;
+                }
+                .sect_item:nth-child(9) {
+                    left: 814px;
+                    top: 634px;
+                }
+                .sect_item:nth-child(10) {
+                    left: 650px;
+                    top: 634px;
+                }
+                .sect_item:nth-child(11) {
+                    left: 393px;
+                    top: 624px;
+                }
+                .sect_item:nth-child(12) {
+                    left: 205px;
+                    top: 616px;
+                }
+                .sect_item:nth-child(13) {
+                    left: 48px;
+                    top: 533px;
+                }
+                .sect_item:nth-child(14) {
+                    left: 48px;
+                    top: 365px;
+                }
+            }
+        }
+    }
+
+    .splide__arrow--prev {
+        left: 33px;
+    }
+    .splide__arrow--next {
+        right: 33px;
+    }
+
+    .blog_list .blog_item {
+        width: 49%;
+    }
+}

@@ -328,10 +328,38 @@ function aboutSlider() {
 const showMobileMenu = () => {
     const btn = document.querySelector('.burger');
     const menu = document.querySelector('.top_menu_mobile');
+    const clickableArea = document.querySelector('main');
 
     btn.addEventListener('click', () => {
         menu.classList.toggle('active');
     })
+
+    clickableArea.addEventListener('click', (e) => {
+        menu.classList.remove('active');
+    })
+}
+
+/** open-close filter on mobile */
+const showFilter = () => {
+    const btn = document.querySelector('.open_filter_js');
+    const filter = document.querySelector('.filter');
+    const clickableArea = document.querySelector('.catalog_inner');
+
+    if (btn) {
+        btn.addEventListener('click', () => {
+            filter.classList.toggle('active');
+        })
+    }
+
+    if (clickableArea) {
+        clickableArea.addEventListener('click', (e) => {
+            console.log(window.outerWidth);
+
+            if (e.target.classList != 'open_filter_js') {
+                filter.classList.remove('active');
+            }
+        })
+    } 
 }
 
 homeSlidesInit();
@@ -348,3 +376,4 @@ playVideo();
 showReviews();
 aboutSlider();
 showMobileMenu();
+showFilter();

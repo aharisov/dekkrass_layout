@@ -1,0 +1,117 @@
+@media (max-width: 1023px) {
+    /* header start */
+    header {
+        margin-bottom: 1.5em;
+    }
+    
+    .burger {
+        display: flex;
+    }
+    .top_menu, .header_bottom {
+        display: none;
+    }
+
+    .header_bottom {
+        .cont {
+            flex-wrap: wrap;
+
+            .main_menu li {
+                margin-right: 0;
+                margin-left: 1.5em;
+            }
+        }
+    }
+
+    /* home start */
+    .home_house {
+        .house_inner {
+            display: none;
+        }
+        .house_inner_mobile {
+            display: block;
+        }
+    }
+
+    .home_auctions .auction_item {
+        background-position: 0 center;
+    }
+
+    .splide__arrow--prev {
+        left: 0;
+    }
+    .splide__arrow--next {
+        right: 0;
+    }
+    .brands_slider .brand_item {
+        width: auto;
+    }
+
+    /* footer start */
+    footer {
+        .footer_left {
+            margin-right: 2em;
+        }
+    }      
+    .footer_menu_wrap .footer_sections_menu {
+        margin-left: 0;
+    }  
+    .subscribe_block .line input {
+        width: 238px;
+    }
+
+    .contacts_block .contacts_list {
+        align-items: flex-start;
+        
+        .contact_item {
+            padding: 0 1em;
+        }
+    }
+
+    /* sections start */
+    .sections_page .return_link {
+        margin-bottom: 2em;
+    }
+
+    /* section */
+    .catalog_wrap {
+        .filter {
+            display: none;
+
+            &.active {
+                position: absolute;
+                left: 0;
+                top: 480px;
+                z-index: 999;
+                display: block;
+                padding: 2em;
+                background-color: $darkGreyColor;
+                color: $whiteColor;
+            }
+
+            .block_props li, .filter_block .show_more {
+                color: $whiteColor;
+            }
+            .filter_block .show_more::after {
+                border-color: $whiteColor;
+            }
+        }
+    }
+    .catalog_top_line {
+        margin-bottom: 1em;
+    }
+    .open_filter_js {
+        display: flex;
+    }
+    .catalog_inner {
+        width: 100%;
+        margin-left: 0;
+
+        .products_list {
+            justify-content: space-between;
+
+            .product_card {
+                padding: 0;
+            }
+        }
+    }
+}

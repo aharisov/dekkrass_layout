@@ -1,0 +1,98 @@
+@media (max-width: 1359px) {
+    /* header start */
+    .top_menu li {
+        margin-right: 1.5em;
+    }
+
+    /* home start */
+    .home_house {
+        .house_inner {
+            width: 1156px;
+
+            .sect_list {
+                .sect_item a {
+                    padding: 0 8%;
+                }
+                .sect_item .pic {
+                    max-width: 75px;
+                    max-height: 78px;
+                }
+                .sect_item:nth-child(1) {
+                    left: 30px;
+                }
+                .sect_item:nth-child(2) {
+                    left: 201px;
+                }
+                .sect_item:nth-child(3) {
+                    left: 363px;
+                }
+                .sect_item:nth-child(4) {
+                    left: 770px;
+                }
+                .sect_item:nth-child(5) {
+                    left: 980px;
+                    top: 90px;
+
+                    img {
+                        height: 100%;
+                    }
+                }
+                .sect_item:nth-child(6) {
+                    left: 980px;
+                    top: 258px;
+                }
+                .sect_item:nth-child(7) {
+                    left: 980px;
+                    top: 393px;
+                }
+                .sect_item:nth-child(8) {
+                    left: 860px;
+                    top: 520px;
+                }
+                .sect_item:nth-child(9) {
+                    left: 714px;
+                    top: 587px;
+
+                    img {
+                        height: 100%;
+                    }
+                }
+                .sect_item:nth-child(10) {
+                    left: 550px;
+                    top: 599px;
+                }
+                .sect_item:nth-child(11) {
+                    left: 328px;
+                    top: 568px;
+                }
+                .sect_item:nth-child(12) {
+                    left: 162px;
+                    top: 560px;
+                }
+                .sect_item:nth-child(13) {
+                    left: 24px;
+                    top: 472px;
+                }
+                .sect_item:nth-child(14) {
+                    left: 24px;
+                    top: 330px;
+                }
+            }
+        }
+    }
+
+    /* section */
+    .catalog_inner .products_list .product_card {
+        .buttons_block {
+            .goto_btn {
+                width: 108px;
+                height: 40px;
+                margin-right: 0.5em;
+            }
+            .compare_btn {
+                margin-right: 0.5em;
+            }
+        }
+    }
+    
+}

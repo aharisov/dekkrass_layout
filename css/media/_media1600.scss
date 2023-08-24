@@ -1,0 +1,37 @@
+@media (max-width: 1600px) {
+    /* header start */
+    .top_menu {
+        margin-left: 45px;
+
+        li:last-child {
+            margin-right: 0;
+        }
+    }
+
+    .header_bottom {
+        .logo {
+            margin-right: auto;
+        }
+        .site_search {
+            margin-left: auto;
+        }
+        .small_cart {
+            flex: auto;
+        }
+    }
+
+    /* home start */
+    .product_slider .splide .splide__track {
+        margin-left: 20px;
+    }
+
+    /* section start */
+    .catalog_inner .products_list .product_card {
+        max-width: 32%;
+
+        .product_title {
+            height: 66px;
+            overflow: hidden;
+        }
+    }
+}

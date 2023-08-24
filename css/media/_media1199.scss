@@ -1,0 +1,113 @@
+@media (max-width: 1199px) {
+    /* header start */
+    .top_menu {
+        margin-left: 1.5em;
+    }
+
+    .header_top .header_contacts {
+        max-width: 326px;
+    }
+
+    /* home start */
+    .home_house {
+        .house_inner {
+            width: 985px;
+
+            .sect_list {
+                .sect_item a,
+                .sect_item.font_small a {
+                    width: 120px;
+                    padding-top: 25px;
+                    padding-bottom: 17px;
+                    font-size: 14px;
+                }
+                .sect_item .pic {
+                    max-width: 75px;
+                    max-height: 78px;
+                }
+                .sect_item:nth-child(1) {
+                    left: 36px;
+                }
+                .sect_item:nth-child(2) {
+                    left: 183px;
+                }
+                .sect_item:nth-child(3) {
+                    left: 317px;
+                }
+                .sect_item:nth-child(4) {
+                    left: 653px;
+                }
+                .sect_item:nth-child(5) {
+                    left: 835px;
+                    top: 56px;
+                }
+                .sect_item:nth-child(6) {
+                    left: 835px;
+                    top: 205px;
+                }
+                .sect_item:nth-child(7) {
+                    left: 835px;
+                    top: 322px;
+                }
+                .sect_item:nth-child(8) {
+                    left: 734px;
+                    top: 450px;
+                }
+                .sect_item:nth-child(9) {
+                    left: 609px;
+                    top: 479px;
+                }
+                .sect_item:nth-child(10) {
+                    left: 485px;
+                    top: 489px;
+                }
+                .sect_item:nth-child(11) {
+                    left: 289px;
+                    top: 472px;
+                }
+                .sect_item:nth-child(12) {
+                    left: 148px;
+                    top: 462px;
+                }
+                .sect_item:nth-child(13) {
+                    left: 31px;
+                    top: 392px;
+                }
+                .sect_item:nth-child(14) {
+                    left: 31px;
+                    top: 265px;
+                }
+            }
+        }
+    }
+
+    .home_auctions {
+        .auction_item {
+            background-position: center center;
+
+            .anons {
+                width: 300px;
+                font-size: 21px;
+            }
+        }
+    }
+
+    /* section start */
+    .catalog_inner {
+        width: 78%;
+        margin-left: 2%;
+
+        
+        .products_list .product_card {
+            .buttons_block {
+                .goto_btn {
+                    width: 97px;
+                    font-size: 14px;
+                }
+                .compare_btn, .wishlist_btn {
+                    font-size: 10px;
+                }
+            }
+        }
+    }
+}
