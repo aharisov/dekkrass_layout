@@ -4359,6 +4359,10 @@ footer .footer_right {
     top: auto;
     margin-top: 1em;
   }
+  /* auth, register, restore passwd */
+  .auth_page {
+    margin: 3em 0;
+  }
 }
 @media (max-width: 799px) {
   /* header start */
