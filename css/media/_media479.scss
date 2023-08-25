@@ -211,4 +211,29 @@
     .product_reviews .all_reviews {
         margin: 1em 0;
     }
+    /* auction start */
+    .auction_top {
+        height: auto;
+        padding: 0.5em;
+
+        .auction_inner {
+            h1 {
+                font-size: 1.5em;
+            }
+            .auction_prices .row {
+                flex-wrap: wrap;
+                margin-bottom: 1em;
+            }
+            .auction_prices .new_price {
+                font-size: 1em;
+            }
+            .auction_prices .old_price {
+                font-size: 1em;
+            }
+            .note {
+                padding: 0.5em;
+                font-size: 16px;
+            }
+        }
+    }
 }

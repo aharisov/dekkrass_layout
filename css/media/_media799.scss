@@ -144,4 +144,25 @@
             height: auto;
         }
     }
+    /* auction start */
+    .auction_top {
+        display: flex;
+        align-items: center;
+        padding: 0 1em;
+
+        .auction_inner {
+            width: 100%;
+        }
+    }
+    .other_auctions .auctions_list {
+        height: auto;
+        margin-bottom: 0;
+        flex-direction: column;
+
+        .auction_item {
+            width: 100%;
+            margin-bottom: 2em;
+            padding: 1em 0.5em;
+        }
+    }
 }

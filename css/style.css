@@ -3996,6 +3996,10 @@ footer .footer_right {
   .about_page .numbers_block .right figure {
     height: 100%;
   }
+  /* auction start */
+  .other_auctions .auctions_list .auction_item {
+    width: 48%;
+  }
 }
 @media (max-width: 1600px) {
   /* header start */
@@ -4216,6 +4220,14 @@ footer .footer_right {
   }
   .about_page .numbers_block .left .num_item p {
     width: 30%;
+  }
+  /* auction page start */
+  .auction_top {
+    background-position: 62% 0;
+  }
+  .auction_top .auction_inner {
+    width: 60%;
+    padding: 1.5em;
   }
 }
 @media (max-width: 1023px) {
@@ -4467,6 +4479,25 @@ footer .footer_right {
   .about_page .numbers_block .right {
     height: auto;
   }
+  /* auction start */
+  .auction_top {
+    display: flex;
+    align-items: center;
+    padding: 0 1em;
+  }
+  .auction_top .auction_inner {
+    width: 100%;
+  }
+  .other_auctions .auctions_list {
+    height: auto;
+    margin-bottom: 0;
+    flex-direction: column;
+  }
+  .other_auctions .auctions_list .auction_item {
+    width: 100%;
+    margin-bottom: 2em;
+    padding: 1em 0.5em;
+  }
 }
 @media (max-width: 639px) {
   /* header start */
@@ -4574,6 +4605,7 @@ footer .footer_right {
     width: 590px;
     overflow: auto;
   }
+  /* auction start */
 }
 @media (max-width: 479px) {
   /* header start */
@@ -4752,6 +4784,28 @@ footer .footer_right {
   }
   .product_reviews .all_reviews {
     margin: 1em 0;
+  }
+  /* auction start */
+  .auction_top {
+    height: auto;
+    padding: 0.5em;
+  }
+  .auction_top .auction_inner h1 {
+    font-size: 1.5em;
+  }
+  .auction_top .auction_inner .auction_prices .row {
+    flex-wrap: wrap;
+    margin-bottom: 1em;
+  }
+  .auction_top .auction_inner .auction_prices .new_price {
+    font-size: 1em;
+  }
+  .auction_top .auction_inner .auction_prices .old_price {
+    font-size: 1em;
+  }
+  .auction_top .auction_inner .note {
+    padding: 0.5em;
+    font-size: 16px;
   }
 }
 @media (max-width: 420px) {
