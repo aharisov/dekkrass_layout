@@ -108,4 +108,20 @@
             margin-top: 1em;
         }
     }
+    /* article start */
+    .article_page table thead th {
+        padding: 1em 30px;
+    }
+    .article_page table tbody td {
+        padding: 1em 0;
+    }
+    .table-wrap {
+        width: 100%;
+        overflow-x: auto;
+
+        table {
+            width: 590px;
+            overflow: auto;
+        }
+    }
 }
