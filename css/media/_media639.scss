@@ -180,4 +180,12 @@
             width: 100%;
         }
     } 
+    /* reviews start */
+    .reviews_page .reviews_slider {
+        flex-wrap: wrap;
+        
+        .review_item {
+            width: 100%;
+        }
+    }
 }

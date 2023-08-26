@@ -4004,6 +4004,10 @@ footer .footer_right {
   .help_page .faq_list .faq_item {
     width: 48%;
   }
+  /* reviews start */
+  .reviews_page .reviews_slider .review_item {
+    width: 48%;
+  }
 }
 @media (max-width: 1600px) {
   /* header start */
@@ -4742,6 +4746,13 @@ footer .footer_right {
     flex-wrap: wrap;
   }
   .help_page .faq_list .faq_item {
+    width: 100%;
+  }
+  /* reviews start */
+  .reviews_page .reviews_slider {
+    flex-wrap: wrap;
+  }
+  .reviews_page .reviews_slider .review_item {
     width: 100%;
   }
 }
