@@ -186,4 +186,30 @@
             margin: 0 auto;
         }
     }
+    /* compare start */
+    .compare_wrap {
+        overflow: hidden;
+
+        .compare_products,
+        .compare_table {
+            overflow-x: auto;
+        } 
+        .compare_table {
+            white-space: nowrap;
+
+            .compare_table_inner {
+                width: 800px;
+            }
+        }
+
+        .product_card {
+            width: 370px;
+        }
+        .product_card .buttons_block {
+            position: relative;
+            bottom: 0;
+            margin-top: 1em;
+        }
+    }
+
 }
