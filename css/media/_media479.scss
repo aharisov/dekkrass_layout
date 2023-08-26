@@ -240,4 +240,15 @@
     .brands_list {
         grid-template-columns: repeat(2, 1fr);
     }
+    /* wishlist start */
+    .cart_inner .cart_item {
+        .price_block {
+            .price {
+                font-size: 24px;
+            }
+            .btn {
+                width: 140px;
+            }
+        }
+    }
 }

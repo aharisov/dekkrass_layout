@@ -145,4 +145,23 @@
             height: 200px;
         }
     }
+    /* wishlist start */
+    .cart_inner .cart_item {
+        flex-wrap: wrap;
+
+        figure {
+            margin: 0 auto 1em;
+        }
+        .price_block {
+            margin-top: 1em;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+            .price {
+                margin-bottom: 0;
+                margin-right: 1em;
+            }
+        }
+    }
 }
