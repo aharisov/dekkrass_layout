@@ -160,4 +160,8 @@
     .auth_page {
         margin: 3em 0;
     }
+    /* brands start */
+    .brands_list {
+        grid-template-columns: repeat(4, 1fr);
+    }
 }
