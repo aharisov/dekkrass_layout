@@ -212,4 +212,11 @@
         }
     }
 
+    /* order start */
+    .order_inner {
+        form .line input[type=email] {
+            width: 100%;
+            max-width: none;
+        }
+    }
 }

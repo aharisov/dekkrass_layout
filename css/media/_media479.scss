@@ -283,4 +283,22 @@
     .colors_page .colors_list .color_item {
         width: 100%;
     }
+    /* order start */
+    .order_inner form .line {
+        flex-wrap: wrap;
+    }
+    .order_inner form .line:first-child {
+        margin-bottom: 0;
+    }
+    .order_inner form .line:first-child input {
+        width: 100%;
+        margin-bottom: 12px;
+    }
+    .order_side {
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+    .order_side .coupon form input {
+        font-size: 18px;
+    }
 }

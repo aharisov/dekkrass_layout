@@ -183,9 +183,20 @@
     /* reviews start */
     .reviews_page .reviews_slider {
         flex-wrap: wrap;
-        
+
         .review_item {
             width: 100%;
+        }
+    }
+    /* order start */
+    .order_inner {
+        .order_props {
+            flex-wrap: wrap;
+
+            .props_item {
+                width: 100%;
+                margin-bottom: 1em;
+            }
         }
     }
 }

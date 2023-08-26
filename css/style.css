@@ -4009,6 +4009,16 @@ footer .footer_right {
     width: 48%;
   }
 }
+/* order */
+@media (max-width: 1680px) {
+  .order_inner {
+    max-width: 778px;
+  }
+  .order_inner .order_props .props_item,
+  .order_inner form .line:first-child input, .order_inner form .line input[type=email] {
+    width: 49%;
+  }
+}
 @media (max-width: 1600px) {
   /* header start */
   .top_menu {
@@ -4129,6 +4139,10 @@ footer .footer_right {
   /* cart start */
   .cart_inner .cart_footer .note {
     max-width: 52%;
+  }
+  /* order start */
+  .order_side {
+    width: 390px;
   }
 }
 @media (max-width: 1199px) {
@@ -4253,6 +4267,16 @@ footer .footer_right {
   /* compare start */
   .compare_products .product_card {
     max-width: 370px;
+  }
+  /* order start */
+  .order_inner {
+    max-width: 100%;
+    margin-bottom: 3em;
+  }
+  .order_side {
+    position: relative;
+    width: 100%;
+    margin-bottom: 3em;
   }
 }
 @media (max-width: 1023px) {
@@ -4433,6 +4457,11 @@ footer .footer_right {
     position: relative;
     bottom: 0;
     margin-top: 1em;
+  }
+  /* order start */
+  .order_inner form .line input[type=email] {
+    width: 100%;
+    max-width: none;
   }
 }
 @media (max-width: 799px) {
@@ -4755,6 +4784,14 @@ footer .footer_right {
   .reviews_page .reviews_slider .review_item {
     width: 100%;
   }
+  /* order start */
+  .order_inner .order_props {
+    flex-wrap: wrap;
+  }
+  .order_inner .order_props .props_item {
+    width: 100%;
+    margin-bottom: 1em;
+  }
 }
 @media (max-width: 479px) {
   /* header start */
@@ -4995,6 +5032,24 @@ footer .footer_right {
   }
   .colors_page .colors_list .color_item {
     width: 100%;
+  }
+  /* order start */
+  .order_inner form .line {
+    flex-wrap: wrap;
+  }
+  .order_inner form .line:first-child {
+    margin-bottom: 0;
+  }
+  .order_inner form .line:first-child input {
+    width: 100%;
+    margin-bottom: 12px;
+  }
+  .order_side {
+    padding-left: 1em;
+    padding-right: 1em;
+  }
+  .order_side .coupon form input {
+    font-size: 18px;
   }
 }
 @media (max-width: 420px) {

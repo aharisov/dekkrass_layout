@@ -142,4 +142,14 @@
     .compare_products .product_card {
         max-width: 370px;
     }
+    /* order start */
+    .order_inner {
+        max-width: 100%;
+        margin-bottom: 3em;
+    }
+    .order_side {
+        position: relative;
+        width: 100%;
+        margin-bottom: 3em;
+    }
 }

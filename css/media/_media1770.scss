@@ -102,3 +102,13 @@
         width: 48%;
     }
 }
+/* order */
+@media (max-width: 1680px) {
+    .order_inner {
+        max-width: 778px;
+    }
+    .order_inner .order_props .props_item,
+    .order_inner form .line:first-child input, .order_inner form .line input[type=email] {
+        width: 49%;
+    }
+}
