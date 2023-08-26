@@ -251,4 +251,17 @@
             }
         }
     }
+    /* cart start */
+    .cart_inner .cart_footer .note {
+        padding: 18px 20px 18px 69px;
+        background-position: 10px center;
+    }
+    .cart_inner .cart_footer .right {
+        flex-wrap: wrap;
+        justify-content: center;
+
+        .btn {
+            margin-top: 1em;
+        }
+    }
 }
