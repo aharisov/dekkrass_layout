@@ -124,6 +124,17 @@
             overflow: auto;
         }
     }
-    /* auction start */
-    
+    /* blog start */
+    .blog_nav {
+        flex-wrap: wrap;
+    }
+    .blog_nav ul {
+        width: 100%;
+        justify-content: center;
+        margin: 1em 0;
+    }
+    .blog_nav .nav_btn {
+        width: auto;
+        padding: 0 1em;
+    }
 }

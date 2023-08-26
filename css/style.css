@@ -4502,6 +4502,22 @@ footer .footer_right {
     margin-bottom: 2em;
     padding: 1em 0.5em;
   }
+  /* blog start */
+  .blog_menu {
+    flex-wrap: wrap;
+  }
+  .blog_menu a {
+    margin-bottom: 1em;
+  }
+  .blog_top_item {
+    padding: 1em;
+  }
+  .blog_wrapper .blog_list .blog_item {
+    width: 100%;
+  }
+  .blog_nav .nav_btn {
+    font-size: 16px;
+  }
 }
 @media (max-width: 639px) {
   /* header start */
@@ -4609,7 +4625,19 @@ footer .footer_right {
     width: 590px;
     overflow: auto;
   }
-  /* auction start */
+  /* blog start */
+  .blog_nav {
+    flex-wrap: wrap;
+  }
+  .blog_nav ul {
+    width: 100%;
+    justify-content: center;
+    margin: 1em 0;
+  }
+  .blog_nav .nav_btn {
+    width: auto;
+    padding: 0 1em;
+  }
 }
 @media (max-width: 479px) {
   /* header start */
