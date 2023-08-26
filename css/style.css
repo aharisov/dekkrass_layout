@@ -4000,6 +4000,10 @@ footer .footer_right {
   .other_auctions .auctions_list .auction_item {
     width: 48%;
   }
+  /* help start */
+  .help_page .faq_list .faq_item {
+    width: 48%;
+  }
 }
 @media (max-width: 1600px) {
   /* header start */
@@ -4732,6 +4736,13 @@ footer .footer_right {
   /* contacts start */
   .contacts_page h1 {
     padding: 0 20px;
+  }
+  /* help start */
+  .help_page .faq_list {
+    flex-wrap: wrap;
+  }
+  .help_page .faq_list .faq_item {
+    width: 100%;
   }
 }
 @media (max-width: 479px) {

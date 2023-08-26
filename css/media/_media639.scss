@@ -172,4 +172,12 @@
     .contacts_page h1 {
         padding: 0 20px;
     }
+    /* help start */
+    .help_page .faq_list {
+        flex-wrap: wrap;
+        
+        .faq_item {
+            width: 100%;
+        }
+    } 
 }
