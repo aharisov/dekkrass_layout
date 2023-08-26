@@ -264,4 +264,23 @@
             margin-top: 1em;
         }
     }
+    /* colors start */
+    .colors_page .search_colors {
+        padding-left: 1.5em;
+        padding-right: 1.5em;
+
+        input {
+            width: 100%;
+        }
+        .results {
+            flex-direction: column;
+
+            button {
+                margin-bottom: 1em;
+            }
+        }
+    }
+    .colors_page .colors_list .color_item {
+        width: 100%;
+    }
 }

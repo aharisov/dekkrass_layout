@@ -4927,6 +4927,23 @@ footer .footer_right {
   .cart_inner .cart_footer .right .btn {
     margin-top: 1em;
   }
+  /* colors start */
+  .colors_page .search_colors {
+    padding-left: 1.5em;
+    padding-right: 1.5em;
+  }
+  .colors_page .search_colors input {
+    width: 100%;
+  }
+  .colors_page .search_colors .results {
+    flex-direction: column;
+  }
+  .colors_page .search_colors .results button {
+    margin-bottom: 1em;
+  }
+  .colors_page .colors_list .color_item {
+    width: 100%;
+  }
 }
 @media (max-width: 420px) {
   /* sections start */
