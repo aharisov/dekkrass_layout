@@ -7,7 +7,11 @@
     .burger {
         display: flex;
     }
-    .top_menu, .header_bottom {
+    .catalog_link_mobile {
+        display: block;
+    }
+    .top_menu, .header_bottom,
+    .catalog_link_mobile + .region {
         display: none;
     }
 
@@ -188,18 +192,19 @@
     }
     /* compare start */
     .compare_wrap {
-        overflow: hidden;
+        overflow-x: auto;
 
-        .compare_products,
-        .compare_table {
-            overflow-x: auto;
-        } 
-        .compare_table {
-            white-space: nowrap;
-
-            .compare_table_inner {
-                width: 800px;
-            }
+        .compare_wrap_inner {
+            width: 1024px;
+        }
+        .compare_products .products_list {
+            padding-left: 16%;
+        }
+        .compare_table .line .prop_col {
+            width: 22%;
+        }
+        .compare_table .line .prod_prop {
+            width: 33%;
         }
 
         .product_card {

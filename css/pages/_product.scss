@@ -770,3 +770,117 @@
         display: none;
     }
 }
+
+.popup-bg {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    &.active {
+        display: block;
+    }
+}
+.popup-form {
+    display: none;
+    position: fixed;
+    top: 5%;
+    left: 50%;
+    z-index: 9999;
+    max-width: 640px;
+    margin-left: -320px;
+    padding: 3em;
+    background-color: #fff;
+
+    &.active {
+        display: block;
+    }
+
+    .stars {
+        position: relative;
+        top: -20px;
+        display: flex;
+        flex-direction: row-reverse;
+        width: 110px;
+        height: 21px;
+        margin-right: 6px;
+
+        span {
+            display: inline-flex;
+            width: 22px;
+            height: 21px;
+            margin-right: 0;
+            background-image: url(../images/ic_star_grey.svg);
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            cursor: pointer;
+
+            &:hover, &:hover ~ span {
+                background-image: url(../images/ic_star_green.svg);
+            }
+        }
+
+        &.stars-5 span {
+            background-image: url(../images/ic_star_green.svg);
+        }
+        &.stars-4 span:last-child,
+        &.stars-4 span:nth-child(4),
+        &.stars-4 span:nth-child(3),
+        &.stars-4 span:nth-child(2) {
+            background-image: url(../images/ic_star_green.svg);
+        }
+        &.stars-3 span:last-child,
+        &.stars-3 span:nth-child(4),
+        &.stars-3 span:nth-child(3) {
+            background-image: url(../images/ic_star_green.svg);
+        }
+        &.stars-2 span:last-child,
+        &.stars-2 span:nth-child(4) {
+            background-image: url(../images/ic_star_green.svg);
+        }
+        &.stars-1 span:last-child {
+            background-image: url(../images/ic_star_green.svg);
+        }
+    }
+
+    .auth_page {
+        margin: 0;
+
+        .return {
+            position: absolute;
+            top: 3em;
+            right: 3em;
+
+            svg {
+                width: 30px;
+                height: 30px;
+            }
+        }
+    }
+    h3 {
+        margin-top: 0;
+        margin-bottom: 46px;
+        color: #2A3035;
+        font-size: 33px;
+    }
+    textarea {
+        width: 100%;
+        height: 100px;
+        padding: 0 0 19px;
+        border: none;
+        border-bottom: 1px solid #9F9F9F;
+        font-family: $theme-font;
+        font-size: 18px;
+        font-weight: 500;
+        resize: none;
+
+        &::placeholder {
+            color: #9F9F9F;
+        }
+    }
+}

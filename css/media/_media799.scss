@@ -1,7 +1,17 @@
 @media (max-width: 799px) {
     /* header start */
-    .header_top_left {
-        max-width: 115px;
+    .header_top_left > .burger {
+        margin-right: 12px;
+    }
+    .catalog_link_mobile {
+        
+        .burger {
+            display: none;
+        }
+        a {
+            width: auto;
+            padding: 0 1em;
+        }
     }
 
     /* home start */

@@ -34,6 +34,14 @@
                     <span></span>
                     <span></span>
                 </div>
+                <div class="catalog_link_mobile">
+                    <span class="burger">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </span>
+                    <a href="#">Каталог</a>
+                </div>
                 <div class="region"><span class="current">Москва</span></div>
                 <nav class="top_menu">
                     <ul class="flex">
@@ -50,6 +58,7 @@
                     <div class="line">
                         <div class="logo">
                             <a href="/"><img src="images/logo.jpg" alt=""></a>
+                            <div class="region"><span class="current">Москва</span></div>
                         </div>
                         <div class="product_header_actions flex">
                             <div class="compare">
@@ -903,6 +912,92 @@
             <!-- .product_reviews end -->
         </div>
     </section>
+
+    <!-- review-popup start -->
+    <section id="review-popup" class="popup-form">
+        <div class="auth_page">
+            <a href="javascript:void(0)" class="return">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+
+            <h3>Оставить отзыв</h3>
+
+            <div class="stars">
+                <span data-num="5"></span>
+                <span data-num="4"></span>
+                <span data-num="3"></span>
+                <span data-num="2"></span>
+                <span data-num="1"></span>
+            </div>
+
+            <form action="#">
+                <input type="hidden" name="rating" id="rating">
+                <div class="line">
+                    <input type="text" placeholder="Имя" required>
+                </div>
+                <div class="line">
+                    <input type="phone" data-phone-pattern placeholder="Телефон" required>
+                </div>
+                <div class="line">
+                    <textarea name="plus" placeholder="Плюсы"></textarea>
+                </div>
+                <div class="line">
+                    <textarea name="plus" placeholder="Минусы"></textarea>
+                </div>
+
+                <div class="form_footer flex">
+                    <button type="submit" class="btn">Отправить</button>
+                </div>
+
+                <div class="note">Нажимая кнопку «Отправить», я даю <a href="#">согласие</a> на обработку персональных данных, в соответствии с <a href="#">Политикой</a>, и соглашаюсь с пользовательским соглашением</div>
+            </form>
+        </div>
+    </section>
+    <!-- review-popup end -->
+
+    <!-- ask-popup start -->
+    <section id="ask-popup" class="popup-form">
+        <div class="auth_page">
+            <a href="javascript:void(0)" class="return">
+                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-x-circle" viewBox="0 0 16 16">
+                    <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+                    <path d="M4.646 4.646a.5.5 0 0 1 .708 0L8 7.293l2.646-2.647a.5.5 0 0 1 .708.708L8.707 8l2.647 2.646a.5.5 0 0 1-.708.708L8 8.707l-2.646 2.647a.5.5 0 0 1-.708-.708L7.293 8 4.646 5.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </a>
+
+            <h3>Задать вопрос</h3>
+
+            <form action="#">
+                <div class="line">
+                    <input type="text" placeholder="Имя" required>
+                </div>
+                <div class="line">
+                    <input type="phone" data-phone-pattern placeholder="Телефон" required>
+                </div>
+                <div class="line">
+                    <textarea name="plus" placeholder="Текст вопроса" required></textarea>
+                </div>
+                <div class="line">
+                    <label for="check">
+                        <input type="checkbox" id="check">
+                        <span>Я хочу получать информационные и рекламные сообщения от DeKrass</span>
+                    </label>
+                </div>
+
+                <div class="form_footer flex">
+                    <button type="submit" class="btn">Отправить</button>
+                </div>
+
+                <div class="note">Нажимая кнопку «Отправить», я даю <a href="#">согласие</a> на обработку персональных данных, в соответствии с <a href="#">Политикой</a>, и соглашаюсь с пользовательским соглашением</div>
+            </form>
+        </div>
+    </section>
+    <!-- ask-popup end -->
+    <div class="popup-bg"></div>
+    
     <!-- contacts_block start -->
     <section class="contacts_block home_contacts home_block">
         <div class="cont">

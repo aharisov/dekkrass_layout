@@ -8,9 +8,6 @@
         }
 
         .header_contacts {
-            flex-direction: column;
-            align-items: end;
-            justify-content: center;
     
             .phone {
                 margin-right: 0;
@@ -43,6 +40,12 @@
         }
     }
 
+    .header_top .header_contacts .personal_link {
+        width: 145px;
+        padding-left: 14px;
+        font-size: 12px;
+    }
+
     /* home start */
     .splide__arrow {
         width: 35px;
@@ -67,6 +70,7 @@
         }
     }
     .product_slider .splide__arrow {
+        display: none;
         right: 30px;
         top: 60%;
         background-size: 12px;
@@ -300,5 +304,35 @@
     }
     .order_side .coupon form input {
         font-size: 18px;
+    }
+
+    .auth_page form .form_footer .links a:first-child {
+        display: inline-block;
+        margin-bottom: 0.5em;
+    }
+    /* blog start */
+    .blog_top_item .anons {
+        width: 100%;
+        height: auto;
+
+        .anons_title {
+            font-size: 1.5em;
+        }
+    }
+    .blog_top_item .anons_bottom {
+        flex-direction: column-reverse;
+        align-items: flex-start;
+
+        .date {
+            margin-bottom: 0.7em;
+        }
+        .btn {
+            height: 50px;
+        }
+    }
+    .blog_nav {
+        .begin, .prev, .next, .end {
+            display: none;
+        }
     }
 }

@@ -3,6 +3,11 @@
     header {
         margin-bottom: 1em;
     }
+    .header_top .header_contacts {
+        flex-direction: column;
+        align-items: end;
+        justify-content: center;
+    }
 
     /* home start */
     .home_auctions {
