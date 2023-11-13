@@ -4948,6 +4948,16 @@ footer .footer_right {
     width: 100%;
     margin-bottom: 1em;
   }
+  /* popup form */
+  .popup-form {
+    max-width: 98%;
+    left: 1%;
+    margin-left: 0;
+    padding: 3em 2em;
+  }
+  .popup-form .auth_page .return {
+    right: 1em;
+  }
 }
 @media (max-width: 479px) {
   /* header start */
