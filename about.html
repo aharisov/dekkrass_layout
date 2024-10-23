@@ -340,7 +340,18 @@
             </div>
         </div>
     </div>
- </footer>
+</footer>
+
+<div id="cookie-popup">
+    <h3>Соглашение на cookie</h3>
+    <p>Посещая наш сайт, вы соглашаетесь на использование файлов cookie. Если вы не согласны на использование cookie, следует немедленно закрыть вкладки и окна с нашим сайтом.</p>
+
+    <div class="buttons">
+        <button type="button" class="btn yes" onclick="setCookie('cookie_accept', 'yes', '14')">Соглашаюсь</button>
+        <button type="button" class="btn no" onclick="closeCookiePopup()">Не соглашаюсь</button>
+    </div>
+</div>
+<div class="popup-bg"></div>
 
     <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=<ваш API-ключ>" type="text/javascript"></script>
     <script src="js/splide.min.js"></script> 

@@ -886,6 +886,61 @@ footer .footer_right {
   background-color: #fff;
 }
 
+#cookie-popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 99999;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  max-width: 533px;
+  padding: 16px 21px;
+  border-radius: 5px;
+  background: #FFF;
+  box-shadow: 4px 4px 45px 0px rgba(0, 0, 0, 0.04);
+}
+#cookie-popup.active {
+  display: block;
+}
+#cookie-popup h3 {
+  margin-bottom: 14px;
+  color: #4D565E;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: normal;
+}
+#cookie-popup p {
+  margin-bottom: 14px;
+  color: #4D565E;
+  font-size: 16px;
+  font-weight: 500;
+}
+#cookie-popup .buttons {
+  display: flex;
+}
+#cookie-popup .buttons button {
+  width: 125px;
+  height: 44px;
+  border: none;
+  color: #ffffff;
+}
+#cookie-popup .buttons button:hover {
+  background-color: #E7E9EC;
+  color: #4D565E;
+}
+#cookie-popup .buttons .yes {
+  margin-right: 9px;
+  background: #84B502;
+}
+#cookie-popup .buttons .no {
+  background-color: #CACACA;
+}
+#cookie-popup .buttons .no:hover {
+  background-color: #4D565E;
+  color: #ffffff;
+}
+
 /* home house */
 .home_house .house_inner_mobile {
   display: none;

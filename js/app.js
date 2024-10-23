@@ -465,6 +465,55 @@ function setRating() {
     })
 }
 
+// cookie popup
+function setCookie(cname, cvalue, exdays) {
+    const popup = document.getElementById("cookie-popup");
+    const popupBg = document.querySelector(".popup-bg");
+
+    const d = new Date();
+    d.setTime(d.getTime() + (exdays * 24 * 60 * 60 * 1000));
+    let expires = "expires="+d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+
+    popup.classList.remove('active');
+    popupBg.classList.remove('active');
+}
+  
+function getCookie(cname) {
+    let name = cname + "=";
+    let ca = document.cookie.split(';');
+    for(let i = 0; i < ca.length; i++) {
+        let c = ca[i];
+        while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+  
+function showCookiePopup() {
+    const popup = document.getElementById("cookie-popup");
+    const popupBg = document.querySelector(".popup-bg");
+
+    let check = getCookie('cookie_accept');
+
+    if (!check) {
+        popup.classList.add('active');
+        popupBg.classList.add('active');
+    }
+}
+
+function closeCookiePopup() {
+    const popup = document.getElementById("cookie-popup");
+    const popupBg = document.querySelector(".popup-bg");
+
+    popup.classList.remove('active');
+    popupBg.classList.remove('active');
+}
+
 homeSlidesInit();
 productPicSlider();
 tabs();
@@ -483,3 +532,4 @@ showFilter();
 showReviewPopup();
 showAskPopup();
 setRating();
+showCookiePopup();
